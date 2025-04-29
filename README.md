@@ -82,6 +82,7 @@ mvn exec:java -Dexec.mainClass="org.example.HelloWorld"
 - Never include the `.class` extension when running
 
 ## Project Features
+
 - Weekly assignments covering Java fundamentals
 - JSON processing capabilities
 - Object-oriented programming examples
