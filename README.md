@@ -28,6 +28,7 @@ The project uses the following main dependencies:
 
 ## Building and Running
 
+### Using Maven (Recommended)
 1. Clone the repository:
 ```bash
 git clone [repository-url]
@@ -47,6 +48,38 @@ mvn clean install
 ```bash
 mvn test
 ```
+
+### Java Compilation and Execution Guide
+
+#### Single File Programs
+```bash
+# Compile and run in one step (Java 11+)
+java HelloWorld.java
+
+# Traditional two-step approach
+javac HelloWorld.java    # Compile
+java HelloWorld          # Run
+```
+
+#### Programs with Packages
+```bash
+# If your class is in a package (e.g., package org.example;)
+# Make sure you're in the correct directory structure:
+# src/main/java/org/example/HelloWorld.java
+
+# Using fully qualified name
+java org.example.HelloWorld
+
+# Using Maven (recommended for projects)
+mvn compile
+mvn exec:java -Dexec.mainClass="org.example.HelloWorld"
+```
+
+#### Important Notes
+- Package names must match directory structure
+- Class names are case-sensitive
+- Always include the `.java` extension when compiling
+- Never include the `.class` extension when running
 
 ## Project Features
 
