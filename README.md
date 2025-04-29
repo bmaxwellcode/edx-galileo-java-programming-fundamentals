@@ -84,7 +84,6 @@ mvn exec:java -Dexec.mainClass="org.example.HelloWorld"
 ## Project Features
 
 - Weekly assignments covering Java fundamentals
-- Comprehensive test suite using JUnit 5
 - JSON processing capabilities
 - Object-oriented programming examples
 - Data structure implementations
