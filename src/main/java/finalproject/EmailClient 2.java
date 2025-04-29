@@ -4,7 +4,7 @@ import java.io.*;
 import java.net.Socket;
 import java.net.UnknownHostException;
 import java.util.Scanner;
-// TODO: in progress
+
 public class EmailClient {
     private String hostName;
     private int portNumber;
