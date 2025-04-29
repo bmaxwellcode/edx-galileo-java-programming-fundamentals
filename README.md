@@ -6,11 +6,11 @@ This repository contains the coursework and final project for the GalileoX Java 
 
 The project is organized into weekly modules and a final project:
 
-- `week1/` - Introduction to Java basics
-- `week2/` - Object-oriented programming fundamentals
-- `week3/` - Advanced Java concepts
-- `week4/` - Data structures and algorithms
-- `week5/` - Advanced topics and project preparation
+- `week1/` - Lesson 1: Java Overview
+- `week2/` - Lesson 2: Java Basics
+- `week3/` - Lesson 3: Java Libraries
+- `week4/` - Lessson 4: Functional and Concurrences
+- `week5/` - Lesson 5: Communication and Networking
 - `finalproject/` - Comprehensive final project
 
 ## Prerequisites
